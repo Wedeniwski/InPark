@@ -1,0 +1,20 @@
+<h1>InPark Version %VERSION%</h1>
+
+<h2>The following is new in version %VERSION%:</h2>
+<ul>
+<li>improved: mark your favorites more easily</li>
+<li>new: filter attraction lists by categories of favorites</li>
+<li>new: manual wait time refresh</li>
+<li>new: use 12/24 hour clock setting</li>
+<li>some bug fixes</li>
+</ul>
+
+<h2>Please note:</h2>
+<p>Please note! The waiting time function is dependent on data of other users.
+The waiting times are calculated, when tour is active. They can also be added manually.
+The availability is very limited up to now; please help us improve it by adding waiting times, when visiting the park.</p>
+
+<h2>Feedback:</h2>
+<p>If you should find bugs and mistakes or if you should have suggestions for improvement,
+please let us know. Use the feedback section of this app or visit our website
+www.inpark.info</p>

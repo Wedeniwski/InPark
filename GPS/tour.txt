@@ -1,0 +1,323 @@
+001: Brunnen der Begegnung
+60: Europa-Park Dome
+26
+3: EP-Express Station Alexanderplatz
+22: Berliner Mauer
+51: SWR 3 Rock-Café
+70: Shopping Passage Deutsche Allee
+61: Ballsaal Berlin
+52: Euro-Burger
+40
+6: Altdeutscher Jahrmarkt
+t01: WC Deutschland Eingang
+71
+27
+54: Schwarzwaldladen im Vogtshaus
+i7
+23: Zaubergarten
+i1
+i2
+24: Springender Wasserstrahl
+i5
+i4
+i3
+1: Schloss Balthasar
+t11: WC Russland Panoramabahn
+50
+41: Schloss-Pavillon
+i4
+i5
+i6
+i1
+i6
+28: Franz Mack Statue
+53: Bayerischer Biergarten
+i9
+21: Europa-Brunnen
+53: Bayerischer Biergarten
+21: Europa-Brunnen
+i6
+i7
+i8
+2: Panoramabahn Haltestelle Deutschland
+i9
+53: Bayerischer Biergarten
+t02: WC Deutschland Biergarten
+4: Oldtimer-Fahrt
+i11
+i12
+204: Old 99 mit Zirkusparade
+5: Elfenfahrt
+115: HIPP-Baby-Service
+mp06
+133
+134: Gelato
+i8
+122: Freilichtbühne Italien
+123: Karneval in Venedig
+140: Fotostudio Nostalgie
+142: Casa del Dolci
+t07: WC Italien Casa des Dolci
+143: Casa del Souvenir
+115: HIPP-Baby-Service
+101: Ciao Bambini
+130: Pizzeria Venezia
+100: Geisterschloss
+141: Horror-Laden
+120: Teatro dell&apos;Arte
+123: Karneval in Venedig
+120: Teatro dell&apos;Arte
+110
+232: Magic Cinema 4D
+220: Filmerlebniswelt
+273: Bistro La Cigale
+272: Crêperie Nadine
+t12: WC Holland Bamboe Baai
+230: Seebühne
+270: Restaurant Mille Fleurs
+284: L&apos;atelier NICI
+222: Gesichtsmaler
+i12
+t07: WC Italien Casa des Dolci
+202: Euro-Tower
+231: Musikbühne-Pavillon
+271: Restaurant Petite France
+t13: WC Skandinavien Fjord
+203: Marionetten-Bootsfahrt
+i14
+i15
+i11
+i15
+180: Wikinger-Snack
+mp14
+190: Wikingerland-Kiosk
+t08: WC Welt der Kinder Bühne
+160
+151: Wikinger-Bootsfahrt
+161: Wikingerschiff
+171: Kinderkutter
+172: Paddeltour
+174: Freilichtbühne Welt der Kinder
+173: Leuchtturmspaß
+150: Dino-Karussell
+152: Riesen-Rutschen-Labyrinth
+180: Wikinger-Snack
+i15
+i14
+i16
+173: Leuchtturmspaß
+i17
+463
+i18
+i16
+i18
+i19
+mp04: Meeting-Point Schweiz
+i20
+i13
+i12
+mp07
+275: Holzofenbäckerei
+282: Faber Castell Shop
+276: Bar Chez Marianne
+i20
+t06: WC Frankreich Faber-Castell
+201: Universum der Energie
+200: Eurosat
+272: Crêperie Nadine
+250: Silver Star
+254: Silver Star Racing-Shop
+252: Motor Sports Bar
+251: Mercedes-Benz-Hall
+t05: WC Frankreich Mercedes-Benz-Hall
+i21
+255: Mercedes-Benz Motorsport Mini Rennbahn
+i22
+201: Universum der Energie
+i22
+352: Jungfrau-Gletscherflieger
+370
+391
+351: Matterhorn-Blitz
+352: Jungfrau-Gletscherflieger
+432: Helena Souvenirs
+403: Pegasus - Die YoungStar Achterbahn
+i21
+403: Pegasus - Die YoungStar Achterbahn
+400: Wasserachterbahn Poseidon
+mp08
+432: Helena Souvenirs
+440: Eisshow
+436: MUSTANG Jeans Shop
+420: Taverna Mykonos
+401: Fluch der Kassandra
+t09: WC Griechenland Mykonos
+402: EP-Express Station Olymp
+404: Abenteuer Atlantis
+436: MUSTANG Jeans Shop
+421: Atlantis-Snack
+405
+t10: WC Griechenland Ikarus
+406: Die Schlacht um Hydros
+i23
+mp04: Meeting-Point Schweiz
+350: Schweizer Bobbahn
+390: Walliser Stübli
+360: Walliser Dorf
+380: Walliser Stuben
+mp04: Meeting-Point Schweiz
+i19
+497
+495: Arena of Football
+495b: Coca-Cola SportsBar
+498
+496
+499: adidas Shop
+t03: WC England Arena of Football
+i24
+470: Globe Theater
+450: Panoramabahn Haltestelle England
+454: Crazy Taxi
+453: London Bus
+002: Queen&apos;s Diamonds
+490: Anne&apos;s Sweet Kitchen
+mp02: Meeting-Point England
+t04: WC England Victoria Station
+480: The Three Piglets
+i24
+451: The British Carousel
+452: Silverstone-Piste
+481
+483: Panorama-Restaurant
+492
+456: Monorail Station England
+t15
+471: Europa-Park Historama
+504: Lada Autodrom
+500: Euro-Mir
+t11: WC Russland Panoramabahn
+mp03: Meeting-Point Russland
+540
+511: Raumstation Mir
+530: Euro-Mir Burger
+510
+540
+541: Babuschka
+513: Russisches Dorf
+514
+503: Schlittenfahrt Schneeflöckchen
+525
+i23
+501: Panoramabahn Haltestelle Russland
+500: Euro-Mir
+501: Panoramabahn Haltestelle Russland
+i24
+480: The Three Piglets
+615
+mp01: Meeting-Point Abenteuerland
+616
+600: Dschungel-Floßfahrt
+t16
+612: Wasserspielplatz
+622
+i25
+553: Mini-Scooter
+552: Peter Pan
+554: Roter Baron
+mp09
+570: Kinder-Musical
+580: Ijssalon und Pannekoekenhut
+551: Koffiekopjes
+580: Ijssalon und Pannekoekenhut
+591: Batavia-Passage
+550: Piraten in Batavia
+592
+582: Restaurant Bamboe Baai
+t12: WC Holland Bamboe Baai
+560: Ballpool
+581: Dorfkrug
+mp09
+553: Mini-Scooter
+i25
+mp05: Meeting-Point Skandinavien
+591: Batavia-Passage
+682: Is Deel (Eisdiele)
+691
+692: Haithabu Mittelalter-Laden
+662
+661: Versunkene Stadt Vineta
+681: Fiskhuset Meermaid
+680: Fjord-Restaurant
+t13: WC Skandinavien Fjord
+663: Andersens Märchenturm
+650: Fjord-Rafting
+651: Vindjammer
+660: Norwegische Stabkirche
+mp05: Meeting-Point Skandinavien
+i25
+t16
+612: Wasserspielplatz
+601: African Queen
+612: Wasserspielplatz
+730
+t17
+700
+723
+702
+i26
+601: African Queen
+i26
+610: Märchenallee
+602: Wichtelhausen
+t04: WC England Victoria Station
+612: Wasserspielplatz
+622
+830
+mp10
+810
+800: Atlantica SuperSplash
+862
+895
+851
+850
+893
+852
+t18
+892
+891
+890
+880
+mp11
+894
+881
+861
+663: Andersens Märchenturm
+i25
+622
+mp10
+t19
+801
+840
+811
+801
+751
+771
+770
+t20
+781
+780
+765
+790
+750
+mp12
+761
+760
+761
+752
+t21
+753
+722
+mp13
+702
+701
+710

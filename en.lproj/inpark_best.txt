@@ -1,0 +1,18 @@
+<p><b>Best InPark – our vision</b></p>
+
+If you contact us, we’ll answer. We promise!
+
+<p>We have a goal: Being the best theme park app in the world.</p>
+
+<p>You can help us reaching it. How?
+<ul>
+<li>Tell us, what you like.</li>
+<li>Tell us, what you don’t like.</li>
+<li>Tell others about InPark.</li>
+<li>Rate us in the App Store.</li>
+</ul></p>
+
+<p>If you contact us, we’ll answer. We promise!</p>
+
+<p><a href="mailto:info@inpark.info?subject=Feedback&body=Help%20us%20improve%20InPark%20%VERSION_LONG%%20by%20telling%20us%20what%20you%20like%20or%20what%20suggestions%20you%20have.%0D%0APlease%20also%20let%20us%20know%20if%20you%20find%20mistakes%20or%20bugs.%0D%0AWe'd%20be%20delighted%20if%20you%20would%20rate%20InPark%20in%20iTunes%20App%20Store.%0D%0A%0D%0AFor%20feedback%20please%20use%20the%20form%20below%20or%20visit%20our%20website%20www.inpark.info">Contact InPark.</a></p>
+

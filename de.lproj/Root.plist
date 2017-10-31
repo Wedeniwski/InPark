@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>GPS Einstellungen</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Ortungsdienste</string>
+			<key>Key</key>
+			<string>GPS_ENABLED</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>5</integer>
+			<key>Key</key>
+			<string>GPS_DISTANCE_THRESHOLD</string>
+			<key>Title</key>
+			<string>GPS Markierungen</string>
+			<key>Titles</key>
+			<array>
+				<string>1 m</string>
+				<string>2 m</string>
+				<string>5 m</string>
+				<string>7 m</string>
+				<string>10 m</string>
+				<string>15 m</string>
+				<string>20 m</string>
+				<string>30 m</string>
+				<string>50 m</string>
+				<string>100 m</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>5</integer>
+				<integer>7</integer>
+				<integer>10</integer>
+				<integer>15</integer>
+				<integer>20</integer>
+				<integer>30</integer>
+				<integer>50</integer>
+				<integer>100</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>10</integer>
+			<key>Key</key>
+			<string>GPS_ACCURACY_THRESHOLD</string>
+			<key>Title</key>
+			<string>GPS Mindestgenauigkeit</string>
+			<key>Titles</key>
+			<array>
+				<string>10 m</string>
+				<string>20 m</string>
+				<string>30 m</string>
+				<string>40 m</string>
+				<string>50 m</string>
+				<string>60 m</string>
+				<string>70 m</string>
+				<string>80 m</string>
+				<string>90 m</string>
+				<string>100 m</string>
+				<string>200 m</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>10</integer>
+				<integer>20</integer>
+				<integer>30</integer>
+				<integer>40</integer>
+				<integer>50</integer>
+				<integer>60</integer>
+				<integer>70</integer>
+				<integer>80</integer>
+				<integer>90</integer>
+				<integer>100</integer>
+				<integer>200</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Online</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>7</integer>
+			<key>Key</key>
+			<string>PARK_DATA_UPDATE</string>
+			<key>Title</key>
+			<string>Parkdaten Update</string>
+			<key>Titles</key>
+			<array>
+				<string>manuell</string>
+				<string>täglich prüfen</string>
+				<string>wöchentlich prüfen</string>
+				<string>monatlich prüfen</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>-1</integer>
+				<integer>1</integer>
+				<integer>7</integer>
+				<integer>30</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>A</string>
+			<key>Key</key>
+			<string>PARK_DATA_SCOPE</string>
+			<key>Title</key>
+			<string>Parkdaten-Bereich</string>
+			<key>Titles</key>
+			<array>
+				<string>alle</string>
+				<string>installierte</string>
+				<string>installierte Länder</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>A</string>
+				<string>I</string>
+				<string>C</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Kostenloses Daten-Update</string>
+			<key>Key</key>
+			<string>CALL_PARK_DATA_UPDATE</string>
+			<key>File</key>
+			<string>UpdateView</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>5</integer>
+			<key>Key</key>
+			<string>WAITING_TIMES_UPDATE</string>
+			<key>Title</key>
+			<string>Wartezeiten</string>
+			<key>Titles</key>
+			<array>
+				<string>ausschalten (schicken und empfangen)</string>
+				<string>manuell</string>
+				<string>alle 5 Minuten</string>
+				<string>alle 10 Minuten</string>
+				<string>alle 15 Minuten</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>-1</integer>
+				<integer>0</integer>
+				<integer>5</integer>
+				<integer>10</integer>
+				<integer>15</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Allgemein</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>O</string>
+			<key>Key</key>
+			<string>MAP_TYPE</string>
+			<key>Title</key>
+			<string>Kartenart</string>
+			<key>Titles</key>
+			<array>
+				<string>Overlay (offline)</string>
+				<string>Standard (online)</string>
+				<string>Satellite (online)</string>
+				<string>Hybrid (online)</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>O</string>
+				<string>T</string>
+				<string>S</string>
+				<string>H</string>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>M</string>
+			<key>Key</key>
+			<string>UNITS_OF_MEASURE</string>
+			<key>Title</key>
+			<string>Maßeinheit</string>
+			<key>Titles</key>
+			<array>
+				<string>Metrisches System (m/km)</string>
+				<string>Imperiales System (feet/miles)</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>M</string>
+				<string>I</string>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>P</string>
+			<key>Key</key>
+			<string>SCREEN_DISPLAY</string>
+			<key>Title</key>
+			<string>Darstellungsformat</string>
+			<key>Titles</key>
+			<array>
+				<string>Hochformat</string>
+				<string>Querformat (Linkshänder)</string>
+				<string>Querformat (Rechtshänder)</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>P</string>
+				<string>L</string>
+				<string>R</string>
+			</array>
+		</dict>
+	</array>
+	<key>Profile</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Personenbezogene Daten</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string></string>
+			<key>Key</key>
+			<string>USER_NAME</string>
+			<key>Title</key>
+			<string>Nutzername</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>18</integer>
+			<key>Key</key>
+			<string>AGE</string>
+			<key>Title</key>
+			<string>Alter</string>
+			<key>Titles</key>
+			<array>
+				<string>1 Jahr</string>
+				<string>2 Jahre</string>
+				<string>3 Jahre</string>
+				<string>4 Jahre</string>
+				<string>5 Jahre</string>
+				<string>6 Jahre</string>
+				<string>7 Jahre</string>
+				<string>8 Jahre</string>
+				<string>9 Jahre</string>
+				<string>10 Jahre</string>
+				<string>11 Jahre</string>
+				<string>12 Jahre und älter</string>
+				<string>18 Jahre und älter</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+				<integer>6</integer>
+				<integer>7</integer>
+				<integer>8</integer>
+				<integer>9</integer>
+				<integer>10</integer>
+				<integer>11</integer>
+				<integer>12</integer>
+				<integer>18</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>150+</string>
+			<key>Key</key>
+			<string>HEIGHT</string>
+			<key>Title</key>
+			<string>Größe</string>
+			<key>Titles</key>
+			<array>
+				<string>kleiner 90 cm</string>
+				<string>größer 90 cm</string>
+				<string>größer 100 cm</string>
+				<string>größer 110 cm</string>
+				<string>größer 120 cm</string>
+				<string>größer 130 cm</string>
+				<string>größer 140 cm</string>
+				<string>größer 150 cm</string>
+				<string>größer 195 cm</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>-90</string>
+				<string>90+</string>
+				<string>100+</string>
+				<string>110+</string>
+				<string>120+</string>
+				<string>130+</string>
+				<string>140+</string>
+				<string>150+</string>
+				<string>195+</string>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>M</string>
+			<key>Key</key>
+			<string>SEX</string>
+			<key>Title</key>
+			<string>Geschlecht</string>
+			<key>Titles</key>
+			<array>
+				<string>männlich</string>
+				<string>weiblich</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>M</string>
+				<string>F</string>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>No</string>
+			<key>FalseValue</key>
+			<string>No</string>
+			<key>Key</key>
+			<string>CONSIDER_ONLY_HANDICAPPED_ACCESSIBLE</string>
+			<key>Title</key>
+			<string>Behindertengerecht</string>
+			<key>TrueValue</key>
+			<string>Yes</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>4.8</string>
+			<key>Key</key>
+			<string>AVG_WALKING_SPEED</string>
+			<key>Title</key>
+			<string>ø Gehgeschwindigkeit</string>
+			<key>Titles</key>
+			<array>
+				<string>4,0 km/h</string>
+				<string>4,1 km/h</string>
+				<string>4,2 km/h</string>
+				<string>4,3 km/h</string>
+				<string>4,4 km/h</string>
+				<string>4,5 km/h</string>
+				<string>4,6 km/h</string>
+				<string>4,7 km/h</string>
+				<string>4,8 km/h</string>
+				<string>4,9 km/h</string>
+				<string>5,0 km/h</string>
+				<string>5,1 km/h</string>
+				<string>5,2 km/h</string>
+				<string>5,3 km/h</string>
+				<string>5,4 km/h</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>4.0</string>
+				<string>4.1</string>
+				<string>4.2</string>
+				<string>4.3</string>
+				<string>4.4</string>
+				<string>4.5</string>
+				<string>4.6</string>
+				<string>4.7</string>
+				<string>4.8</string>
+				<string>4.9</string>
+				<string>5.0</string>
+				<string>5.1</string>
+				<string>5.2</string>
+				<string>5.3</string>
+				<string>5.4</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Vorlieben</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>2</integer>
+			<key>Key</key>
+			<string>THRILL_FACTOR</string>
+			<key>Title</key>
+			<string>Thrill-Faktor</string>
+			<key>Titles</key>
+			<array>
+				<string>0 (überhaupt nicht wichtig)</string>
+				<string>1 (wenig wichtig)</string>
+				<string>2 (interessiert)</string>
+				<string>3 (wichtig)</string>
+				<string>4 (sehr wichtig)</string>
+				<string>5 (absolutes Muss)</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>2</integer>
+			<key>Key</key>
+			<string>WATER_FACTOR</string>
+			<key>Title</key>
+			<string>Wasser-Faktor</string>
+			<key>Titles</key>
+			<array>
+				<string>0 (überhaupt nicht wichtig)</string>
+				<string>1 (wenig wichtig)</string>
+				<string>2 (interessiert)</string>
+				<string>3 (wichtig)</string>
+				<string>4 (sehr wichtig)</string>
+				<string>5 (absolutes Muss)</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>2</integer>
+			<key>Key</key>
+			<string>FAMILY_FACTOR</string>
+			<key>Title</key>
+			<string>Familien-Faktor</string>
+			<key>Titles</key>
+			<array>
+				<string>0 (überhaupt nicht wichtig)</string>
+				<string>1 (wenig wichtig)</string>
+				<string>2 (interessiert)</string>
+				<string>3 (wichtig)</string>
+				<string>4 (sehr wichtig)</string>
+				<string>5 (absolutes Muss)</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>50</integer>
+			<key>Key</key>
+			<string>RECOMMENDATION_MATCH</string>
+			<key>Title</key>
+			<string>Empfehlungen ab</string>
+			<key>Titles</key>
+			<array>
+				<string>10% Übereinstimmung</string>
+				<string>20% Übereinstimmung</string>
+				<string>30% Übereinstimmung</string>
+				<string>40% Übereinstimmung</string>
+				<string>50% Übereinstimmung</string>
+				<string>60% Übereinstimmung</string>
+				<string>70% Übereinstimmung</string>
+				<string>80% Übereinstimmung</string>
+				<string>90% Übereinstimmung</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>10</integer>
+				<integer>20</integer>
+				<integer>30</integer>
+				<integer>40</integer>
+				<integer>50</integer>
+				<integer>60</integer>
+				<integer>70</integer>
+				<integer>80</integer>
+				<integer>90</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>3</integer>
+			<key>Key</key>
+			<string>RATING_WEIGHT</string>
+			<key>Title</key>
+			<string>Eigenbewertung</string>
+			<key>Titles</key>
+			<array>
+				<string>ignorieren</string>
+				<string>vernachlässigen</string>
+				<string>schwach gewichten</string>
+				<string>mittel gewichten</string>
+				<string>stark gewichten</string>
+				<string>stark hervorheben</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Begleitperson</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>No</string>
+			<key>FalseValue</key>
+			<string>No</string>
+			<key>Key</key>
+			<string>CONSIDER_ACCOMPANIST</string>
+			<key>Title</key>
+			<string>Berücksichtigen</string>
+			<key>TrueValue</key>
+			<string>Yes</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>6</integer>
+			<key>Key</key>
+			<string>AGE_ACCOMPANIST</string>
+			<key>Title</key>
+			<string>Alter</string>
+			<key>Titles</key>
+			<array>
+				<string>1 Jahr</string>
+				<string>2 Jahre</string>
+				<string>3 Jahre</string>
+				<string>4 Jahre</string>
+				<string>5 Jahre</string>
+				<string>6 Jahre</string>
+				<string>7 Jahre</string>
+				<string>8 Jahre</string>
+				<string>9 Jahre</string>
+				<string>10 Jahre</string>
+				<string>11 Jahre</string>
+				<string>12 Jahre und älter</string>
+				<string>18 Jahre und älter</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+				<integer>6</integer>
+				<integer>7</integer>
+				<integer>8</integer>
+				<integer>9</integer>
+				<integer>10</integer>
+				<integer>11</integer>
+				<integer>12</integer>
+				<integer>18</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>110+</string>
+			<key>Key</key>
+			<string>HEIGHT_ACCOMPANIST</string>
+			<key>Title</key>
+			<string>Größe</string>
+			<key>Titles</key>
+			<array>
+				<string>kleiner 90 cm</string>
+				<string>größer 90 cm</string>
+				<string>größer 100 cm</string>
+				<string>größer 110 cm</string>
+				<string>größer 120 cm</string>
+				<string>größer 130 cm</string>
+				<string>größer 140 cm</string>
+				<string>größer 150 cm</string>
+				<string>größer 195 cm</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>-90</string>
+				<string>90+</string>
+				<string>100+</string>
+				<string>110+</string>
+				<string>120+</string>
+				<string>130+</string>
+				<string>140+</string>
+				<string>150+</string>
+				<string>195+</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Vorgaben</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>-1</integer>
+			<key>Key</key>
+			<string>MAX_PARK_VISIT_TIME</string>
+			<key>Title</key>
+			<string>Max. Parkaufenthalt</string>
+			<key>Titles</key>
+			<array>
+				<string>unbegrenzt</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>-1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>-1</integer>
+			<key>Key</key>
+			<string>MAX_TOUR_DISTANCE</string>
+			<key>Title</key>
+			<string>Max. Tourlänge</string>
+			<key>Titles</key>
+			<array>
+				<string>unbegrenzt</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>-1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>D</string>
+			<key>Key</key>
+			<string>OPTIMIZATION</string>
+			<key>Title</key>
+			<string>Optimierung nach</string>
+			<key>Titles</key>
+			<array>
+				<string>Gehstrecke</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>D</string>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>Q</string>
+			<key>Key</key>
+			<string>CALL_OPTIMIZATION</string>
+			<key>Title</key>
+			<string>Optimierung</string>
+			<key>Titles</key>
+			<array>
+				<string>fragen</string>
+				<string>automatisch</string>
+				<string>inaktiv</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>Q</string>
+				<string>A</string>
+				<string>I</string>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>30</integer>
+			<key>Key</key>
+			<string>MAX_ACCEPTED_WAITING_TIME</string>
+			<key>Title</key>
+			<string>Max. akzeptierte Wartezeit</string>
+			<key>Titles</key>
+			<array>
+				<string>5 Min.</string>
+				<string>10 Min.</string>
+				<string>15 Min.</string>
+				<string>20 Min.</string>
+				<string>25 Min.</string>
+				<string>30 Min.</string>
+				<string>35 Min.</string>
+				<string>40 Min.</string>
+				<string>45 Min.</string>
+				<string>50 Min.</string>
+				<string>55 Min.</string>
+				<string>1 Std.</string>
+				<string>70 Min.</string>
+				<string>80 Min.</string>
+				<string>90 Min.</string>
+				<string>100 Min.</string>
+				<string>110 Min.</string>
+				<string>2 Std.</string>
+				<string>2 ½ Std.</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>5</integer>
+				<integer>10</integer>
+				<integer>15</integer>
+				<integer>20</integer>
+				<integer>25</integer>
+				<integer>30</integer>
+				<integer>35</integer>
+				<integer>40</integer>
+				<integer>45</integer>
+				<integer>50</integer>
+				<integer>55</integer>
+				<integer>60</integer>
+				<integer>70</integer>
+				<integer>80</integer>
+				<integer>90</integer>
+				<integer>100</integer>
+				<integer>110</integer>
+				<integer>120</integer>
+				<integer>150</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>15</integer>
+			<key>Key</key>
+			<string>TIME_BEFORE_SHOW</string>
+			<key>Title</key>
+			<string>Zeitpuffer vor Shows</string>
+			<key>Titles</key>
+			<array>
+				<string>nein</string>
+				<string>5 Min.</string>
+				<string>10 Min.</string>
+				<string>15 Min.</string>
+				<string>20 Min.</string>
+				<string>25 Min.</string>
+				<string>30 Min.</string>
+				<string>45 Min.</string>
+				<string>1 Std.</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>5</integer>
+				<integer>10</integer>
+				<integer>15</integer>
+				<integer>20</integer>
+				<integer>25</integer>
+				<integer>30</integer>
+				<integer>45</integer>
+				<integer>60</integer>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

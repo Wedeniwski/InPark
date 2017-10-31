@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AttractionViewController">
+            <connections>
+                <outlet property="actionsTable" destination="100" id="101"/>
+                <outlet property="allPicturesButton" destination="109" id="111"/>
+                <outlet property="closedLabel" destination="93" id="95"/>
+                <outlet property="closedView" destination="92" id="94"/>
+                <outlet property="copyrightLabel" destination="98" id="99"/>
+                <outlet property="favoriteView" destination="112" id="113"/>
+                <outlet property="helpButton" destination="65" id="108"/>
+                <outlet property="informationControl" destination="89" id="96"/>
+                <outlet property="prepAllPicturesWaitView" destination="71" id="73"/>
+                <outlet property="titleNavigationItem" destination="37" id="47"/>
+                <outlet property="topNavigationBar" destination="35" id="87"/>
+                <outlet property="view" destination="1" id="3"/>
+                <outlet property="viewAllPicturesView" destination="106" id="107"/>
+                <outlet property="webView" destination="41" id="57"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" id="35">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <items>
+                        <navigationItem title="0 x" id="37">
+                            <barButtonItem key="leftBarButtonItem" title="Zurück" id="38">
+                                <connections>
+                                    <action selector="loadBackView:" destination="-1" id="40"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <webView contentMode="scaleToFill" id="41">
+                    <rect key="frame" x="0.0" y="277" width="320" height="183"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <dataDetectorType key="dataDetectorTypes"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="64"/>
+                    </connections>
+                </webView>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="right" contentVerticalAlignment="top" lineBreakMode="middleTruncation" id="65" userLabel="Button - Help">
+                    <rect key="frame" x="290" y="0.0" width="28" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="9"/>
+                    <inset key="contentEdgeInsets" minX="0.0" minY="8" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="-5" maxX="0.0" maxY="0.0"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="helpView:" destination="-1" eventType="touchUpInside" id="66"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="100">
+                    <rect key="frame" x="0.0" y="277" width="320" height="183"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="102"/>
+                        <outlet property="delegate" destination="-1" id="103"/>
+                    </connections>
+                </tableView>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="89">
+                    <rect key="frame" x="0.0" y="249" width="320" height="30"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <segments>
+                        <segment title="First"/>
+                        <segment title="Second"/>
+                    </segments>
+                    <connections>
+                        <action selector="updateDetailView:" destination="-1" eventType="valueChanged" id="97"/>
+                    </connections>
+                </segmentedControl>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="106" customClass="CoverFlowView">
+                    <rect key="frame" x="0.0" y="44" width="320" height="233"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="109">
+                    <rect key="frame" x="293" y="46" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="viewAllPictures:" destination="-1" eventType="touchUpInside" id="110"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="closed.png" id="92">
+                    <rect key="frame" x="1" y="47" width="60" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="geschlossen" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="8" id="93">
+                    <rect key="frame" x="1" y="80" width="63" height="38"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="10"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Copyright" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="98">
+                    <rect key="frame" x="7" y="217" width="50" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="10"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" animating="YES" style="whiteLarge" id="71" userLabel="Large White Activity Indicator">
+                    <rect key="frame" x="141" y="133" width="37" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                </activityIndicatorView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="favorite_star.png" id="112">
+                    <rect key="frame" x="70" y="11" width="22" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="closed.png" width="38" height="38"/>
+        <image name="favorite_star.png" width="44" height="42"/>
+    </resources>
+</document>

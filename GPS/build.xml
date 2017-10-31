@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<!--
+(c) 2010 Sebastian Wedeniwski
+ -->
+
+<project name="GPS" default="dist" basedir=".">
+    <description>
+        simple example build file
+    </description>
+  <!-- set global properties for this build -->
+  <property name="src" location="."/>
+  <property name="build" location="build"/>
+  <property name="dist"  location="."/>
+  <property name="compile.debug" value="true"/>
+  <property name="compile.optimize" value="true"/>
+
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}"/>
+  </target>
+
+  <target name="compile" depends="init"
+        description="compile the source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac srcdir="${src}" destdir="${build}" includes="**/*.java" debug="${compile.debug}" optimize="${compile.optimize}"/>
+  </target>
+
+  <target name="dist" depends="compile" description="Build FilterAttractionLocations">
+    <!-- jar cfe PListEditor.jar PListEditor *.class -->
+    <jar
+      jarfile="${dist}/${ant.project.name}.jar"
+      basedir="${build}">
+      <manifest>
+        <attribute name="Main-Class" value="FilterAttractionLocations"/>
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="clean" description="Clean up">
+    <delete dir="${build}"/>
+  </target>
+</project>

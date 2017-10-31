@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Alton Towers InPark Assistant.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
+		<key>Disney California Adventure Wait Time Assistant.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>Disney World InPark Assistant.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>Disney's Animal Kingdom InPark Assistant.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Disney's Hollywood Studios InPark Assistant.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Disneyland California Wait Time Assistant.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>Disneyland Paris Wait Time Assistant.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Disneyland Resort California Wait Time Assistant.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>Efteling Wait Times.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>Epcot InPark Assistant.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Europa-Park Wait Times.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>Heide-Park Wait Times.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>InPark Magic Kingdom edition.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>InPark.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Magic Kingdom InPark Assistant.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Phantasialand Wait Times.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>SeaWorld Orlando InPark Assistant.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
+		<key>Universal Orlando Resort InPark Assistant.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>Universal Studios Florida InPark Assistant.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>Universal Studios Hollywood InPark Assistant.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+		<key>Universal's Islands of Adventure InPark Assistant.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1D6058900D05DD3D006BFB54</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>462120D11528D0DF00389665</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>462BDB3E14DDAB3000A91F3C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46445C2B184118E7003F4729</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>465B204B151BD9C800330F82</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>465C447D150CC13100DF524C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4669F51315A636E100837514</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>466D94F0167130630045C069</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>466D9603167325E10045C069</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4685D97515E24ED0004372E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4685DA8315E25066004372E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46A0772C17BFF5480061E827</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46B18762152398F5005A1D0D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46B5C83D150033DF0064A67C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46B5C961150344C20064A67C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46B5CA781503502E0064A67C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46B9161515127FFF00372309</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46CD85A31517BAF700A2DB93</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46CD86B71517EC3A00A2DB93</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46D9B513167384BC0093741E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46F2DFFC1704BEE800B4DC5A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

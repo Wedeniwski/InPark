@@ -1,0 +1,15 @@
+<p><b>Bestes InPark – unser Anspruch</b></p>
+
+<p>Wir haben ein Ziel: Die beste Freizeitpark-App der Welt zu werden.</p>
+
+<p>Sie können uns dabei helfen. Wie?
+<ul>
+<li>Indem Sie uns sagen, was Ihnen an InPark gefällt.</li>
+<li>Indem Sie uns sagen, was Ihnen nicht gefällt.</li>
+<li>Indem Sie InPark weiter empfehlen.</li>
+<li>Indem Sie InPark im App Store bewerten.</li>
+</ul></p>
+
+<p>Wenn Sie Kontakt aufnehmen, antworten wir. Versprochen!</p>
+
+<p><a href="mailto:info@inpark.info?subject=Feedback&body=Helfen%20Sie%20uns,%20InPark%20%VERSION_LONG%%20zu%20verbessern%20und%20sagen%20Sie%20uns,%20was%20Ihnen%20gef%E4llt%20oder%20wo%20Sie%20Verbesserungsvorschl%E4ge%20haben.%0D%0ASollten%20Sie%20Fehler%20finden,%20lassen%20Sie%20es%20uns%20wissen!%0D%0AAuch%20%FCber%20Bewertungen%20im%20App-Store%20freuen%20wir%20uns.%0D%0A%0D%0AF%FCr%20Feedback%20k%F6nnen%20Sie%20das%20Formular%20auf%20dieser%20Seite%20nutzen%20oder%20besuchen%20Sie%20unsere%20Website%20www.inpark.info">Kontakt aufnehmen.</a></p>

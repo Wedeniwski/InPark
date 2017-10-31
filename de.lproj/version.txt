@@ -1,0 +1,19 @@
+<h1>InPark Version %VERSION%</h1>
+
+<h2>Folgendes ist in der Version %VERSION% neu:</h2>
+<ul>
+<li>verbessert: Markierung von Favoriten</li>
+<li>neu: Attraktionslisten mit Favoriten-Kategorien filtern</li>
+<li>neu: manuelle Aktualisierung der Wartezeiten</li>
+<li>neu: berücksichtigt 12-/24-Stunden Einstellung der Uhrzeitanzeige</li>
+<li>einige kleine Fehler behoben</li>
+</ul>
+
+<h2>Bitte beachten:</h2>
+<p>Bitte beachten! Die Wartezeiten-Funktion ist abhängig von den Daten anderer Nutzer.
+Die Wartezeiten können manuell eingegeben werden oder sie werden bei aktiver Tour automatisch berechnet.
+Deshalb eingeschränkte Verfügbarkeit! Helfen Sie uns bitte bei der Verbesserung, in dem Sie bei Parkbesuchen Wartezeiten eingeben.</p>
+
+<h2>Feedback:</h2>
+<p>Sollten Sie Fehler entdecken oder Verbesserungsvorschläge haben, nutzen Sie bitte die Feedback-Funktion oder
+besuchen Sie unsere Website www.inpark.info</p>

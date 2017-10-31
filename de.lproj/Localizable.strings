@@ -1,0 +1,555 @@
+// Allgemein
+"yes" = "Ja";
+"no" = "Nein";
+"cancel" = "Abbrechen";
+"accept" = "Akzeptieren";
+"always.accept" = "Ja, auch künftig";
+"abort" = "Abbrechen";
+"retry" = "Wiederholen";
+"edit" = "Ändern";
+"clear" = "Löschen";
+"done" = "Fertig";
+"options" = "Optionen";
+"publish" = "Veröffentlichen";
+"submit" = "Senden";
+"save" = "Speichern";
+"set" = "Festlegen";
+"ok" = "OK";
+"error" = "Fehler!";
+"network.error" = "Netzwerkfehler!";
+"warning" = "Warnung!";
+"information" = "Hinweis zu %@";
+"info" = "Information";
+"agreement" = "Einverständnis";
+"back" = "Zurück";
+"download" = "Download";
+"active" = "aktiv";
+"start" = "Start";
+"stop" = "Stop";
+"all" = "Alle";
+"map" = "Karte";
+"distance" = "Entfernung";
+"exit" = "Exit";  // used for map annotations
+"fast" = "Fast";  // used for map annotations
+"total" = "Insgesamt";
+"details" = "Details";
+"version" = "Version";
+"copyright" = "CloudMap - OpenStreetMap (CC-BY-SA)";//© 2011 Tilman Rau, Sebastian Wedeniwski. Ohne Gewähr für die Richtigkeit der Daten.";
+"summer" = "Sommer";
+"winter" = "Winter";
+"date.format" = "dd.MM.yyyy";
+"time.format" = "HH:mm";
+"time.format.long" = "HH:mm' Uhr'";
+
+// Countries
+"Germany" = "Deutschland";
+"Deutschland.flag" = "germany_flag.png";
+"France" = "Frankreich";
+"Frankreich.flag" = "france_flag.png";
+"USA" = "USA";
+"USA.flag" = "usa_flag.png";
+"United Kingdom" = "Großbritannien";
+"Großbritannien.flag" = "uk_flag.png";
+"Italy" = "Italien";
+"Italien.flag" = "italy_flag.png";
+"Belgium" = "Belgien";
+"Belgien.flag" = "belgium_flag.png";
+"Netherlands" = "Niederlande";
+"Niederlande.flag" = "netherlands_flag.png";
+"Spain" = "Spanien";
+"Spanien.flag" = "spain_flag.png";
+
+// Release Notes
+"release.notes" = "Versionshinweise";
+
+// More infos
+"inpark.full.version" = "InPark Vollversion";
+"inpark.full.version.why" = "Warum?";
+"inpark.full" = "Ganzes InPark";
+"inpark.more" = "Mehr InPark";
+"inpark.best" = "Bestes InPark";
+
+// Welcome Screen
+"welcome.title" = "Herzlich Willkommen";
+"welcome.park.selection" = "Zum Auswahlmenü";
+"welcome.no.park.data" = "Keine Parkdaten vorhanden. Bitte Daten-Update durchführen.";
+"welcome.profile" = "Zu meinem Profil";
+"welcome.tutorial" = "Zum Tutorium";
+
+// Park Selection Menu
+"menu.park.selection" = "Parkauswahl";
+"dialog.start.title" = "Übergang zum Auswahlmenü";
+"dialog.start.text" = "Künftig immer direkt mit dem Auswahlmenü starten";
+"dialog.delete.park.title" = "Parkdaten löschen";
+"dialog.delete.park.text" = "Sind Sie sicher, dass Sie %@ löschen wollen? Sämtliche verknüpfte Daten und Fotos werden gelöscht.";
+
+// Tutorial
+"tutorial.title" = "Tutorium";
+
+// Info-Sheet
+"about.action.sheet.title" = "Info-Menü";
+"about.title" = "Impressum";
+"settings.title" = "Einstellungen";
+"profile.title" = "Benutzerprofil";
+"feedback.title" = "Feedback";
+"feedback.subject" = "Feedback";
+"feedback.email" = "info@inpark.info";
+"feedback.body" = "Helfen Sie uns, InPark zu verbessern und sagen Sie uns, was Ihnen gefällt oder wo Sie 
+Verbesserungsvorschläge haben.\nSollten Sie Fehler finden, lassen Sie es uns wissen!\nAuch über Bewertungen im App-Store freuen wir uns.\n\nFür Feedback können Sie das Formular auf dieser Seite nutzen oder besuchen Sie unsere Website www.inpark.info";
+
+// Menu
+"park.info" = "Parkinfo";
+"menu.button.recommendations" = "Empfehlungen";
+"recommendations.set.profile" = "Wollen Sie Ihr Profil bearbeiten, um persönliche Empfehlungen zu erhalten?";
+"menu.interesting.attractions.hint" = "Diese %d Attraktionen könnten Sie interessieren (bearbeiten Sie Ihr Profil für individuelle Empfehlungen)";
+"menu.button.attractions" = "Attraktionen";
+"menu.button.areas" = "Themenbereiche";
+"menu.button.restroom" = "WC";
+"menu.button.service" = "Service";
+"menu.button.shop" = "Shops";
+"menu.button.dining" = "Gastronomie";
+"menu.button.catering" = "Gastronomie";
+"menu.button.calendar" = "Kalender";
+"menu.button.news" = "News";
+"menu.button.general" = "Allgemein";
+"menu.button.parking" = "Parkplatz merken";
+"main.menu.information" = "Parkinformationen";
+"main.menu.visit" = "Parkbesuch";
+"main.menu.wait.time" = "Wartezeitenübersicht";
+"main.menu.news" = "Park-News";
+"main.menu.profile" = "Zum Profil";
+"main.menu.visit.notes" = "Bitte beachten! Die Wartezeiten-Funktion ist abhängig von den Daten anderer Nutzer. Die Wartezeiten können manuell eingegeben werden oder sie werden bei aktiver Tour automatisch berechnet. Deshalb eingeschränkte Verfügbarkeit! Helfen Sie uns bitte bei der Verbesserung, in dem Sie bei Parkbesuchen Wartezeiten eingeben.";
+"menu.information" = "Wissenswertes";
+"menu.interesting.attractions" = "Passt zum Profil";
+"menu.official.website" = "Offizielle Website";
+"menu.directions" = "Anreise";
+"menu.prices" = "Preise";
+"menu.opening.times" = "Öffnungszeiten";
+
+// Location Service
+"location.init" = "GPS Status: Lokation ermitteln";
+"location.unknown" = "GPS Status: Lokation unbekannt";
+"location.active.in.park" = "GPS Status: Tour aktiv im Park";
+"location.in.park" = "GPS Status: im Park";
+"location.active.not.in.park" = "Tour aktiv, nicht im Park";
+"location.not.in.park" = "GPS Status: nicht im Park";
+"location.required" = "Die Lokalisierung ist für diese Funktion notwendig.";
+"location.error" = "GPS Status: Lokalisierungsfehler";
+"location.error.denied" = "Zugriff auf Location Service wurde vom Benutzer verweigert.";
+"location.error.network" = "Bitte überprüfen Sie Ihre Netzwerkverbindung und dass der Flugzeugmodus ausgeschaltet ist.";
+"location.error.general" = "Ein Fehler ist bei der Ermittlung der Lokation aufgetreten.";
+
+// Calendar
+"calendar.title" = "Kalender";
+"calendar.no" = "Keine Kalenderdaten vorhanden oder keine Serververbindung.";
+"calendar.see.more" = "Mehr sehen";
+"calendar.weekday.0" = "Mo";
+"calendar.weekday.1" = "Di";
+"calendar.weekday.2" = "Mi";
+"calendar.weekday.3" = "Do";
+"calendar.weekday.4" = "Fr";
+"calendar.weekday.5" = "Sa";
+"calendar.weekday.6" = "So";
+
+// Tour
+"distance.position" = "vom Standort";
+"distance.position.from" = "vom %@";
+
+"tour.title" = "Tour";
+"tour.title.edit" = "Tour-Bearbeitung";
+"tour.name" = "Tourname";
+"tour.button.map" = "Karte";
+"tour.button.completed" = "Track";
+"tour.button.tour" = "Tour";
+"tour.button.items" = "Einträge";
+"tour.accuracy.invalid" = "GPS Genauigkeit: ?";
+"tour.accuracy.not.inside.park" = "Nicht im Park";
+"tour.accuracy" = "GPS Genauigkeit: %d m";
+"tour.accuracy.imperial" = "GPS Genauigkeit: %d ft";
+"tour.distance.label" = "Tourlänge ab Eingang:";
+"tour.duration.label" = "Geschätzte Tourdauer:";
+"tour.distance.value" = "%d m";
+"tour.distance.value.km" = "%.1f km";
+"tour.distance.value.imperial" = "%.2f mi";
+"tour.distance.value.imperial.feet" = "%.0f ft";
+"tour.duration.value1" = "%d Std.";
+"tour.duration.value2" = "%d Std. %d Min.";
+"tour.duration.value3" = "%d Min.";
+"tour.table.title.entrance" = "%@ Eingang";
+"tour.table.footer.exit" = "%@ Ausgang in %d m";
+"tour.table.footer.exit.imperial" = "%@ Ausgang in %d ft";
+"tour.cell.route.text" = "▶ Route %@  -  %@";
+"tour.cell.route.title" = "▼ Route %@  -  %@";
+"tour.cell.completed.route.text" = "%@  -  %@";
+"tour.cell.completed.distance.text" = "absolviert";
+"tour.cell.rating.text" = "Bewertung:";
+"tour.track.sheet.title" = "Tracks";
+"tour.track.sheet.button1" = "Track löschen...";
+"tour.track.sheet.button2" = "Track verschicken...";
+"tour.track.sheet.button3" = "Track auf Facebook veröffentlichen...";
+"tour.track.sheet.button4" = "aktuellen Track schließen";
+"tour.track.sheet.button5" = "aktuellen Track verschicken";
+"tour.track.save.error" = "Aktueller Track konnte nicht gespeichert werden";
+"tour.no.track.error" = "Keine Tracks vorhanden";
+"tour.action.sheet.title" = "Touraktionen";
+"tour.action.sheet.button1" = "Neue Tour...";
+"tour.action.sheet.button2" = "Tour öffnen...";
+"tour.action.sheet.button3" = "Tour umbenennen...";
+"tour.action.sheet.button4" = "Tour löschen";
+"tour.name.new.error" = "Der neue Tourname existiert bereits.";
+"tour.add.action.sheet.title" = "Toureinträge hinzufügen";
+"tour.add.action.sheet.button1" = "Empfehlungen";
+"tour.add.action.sheet.button2" = "Tourvorschläge";
+"tour.add.action.sheet.button3" = "Attraktionen";
+"tour.add.action.sheet.button4" = "WC";
+"tour.add.action.sheet.button5" = "Service";
+"tour.add.action.sheet.button6" = "Shops";
+"tour.add.action.sheet.button7" = "Gastronomie";
+"tour.items.action.sheet.title" = "Toureinträge";
+"tour.items.action.sheet.button1" = "Einträge bearbeiten";
+"tour.items.edit.error" = "Keine Toureinträge vorhanden.";
+"tour.items.action.sheet.button2" = "Alle Einträge löschen";
+"tour.add.suggestion.list.warning" = "Die komplette Liste kann nicht hinzugefügt werden, weil eine Tour nur maximal %d Einträge enthalten kann.";
+
+"tour.cell.highlight.description" = "Ziel erreicht";
+"tour.cell.highlight.entrance.description" = "Eingang erreicht";
+"tour.cell.highlight.exit.description" = "Ausgang erreicht";
+"tour.cell.highlight.detailed.description" = "Bitte am Ziel Button drücken";
+"tour.cell.highlight.entrance.detailed.description" = "Bitte am Eingang Button drücken";
+"tour.cell.highlight.exit.detailed.description" = "Bitte am Ausgang Button drücken";
+"tour.cell.highlight.time" = "~Uhrzeit: %@";
+"tour.cell.opening.times" = "Anfangszeit: %@";
+//"Eingang erreicht um";
+
+"waiting.time" = "Wartezeit";
+"waiting.time.updated" = "Wartezeiten aktualisiert";
+"waiting.time.updated.failed" = "Aktualisierung der Wartezeiten fehlgeschlagen";
+"waiting.time.updated.failed.last" = "Letzte Aktualisierung der Wartezeiten";
+"waiting.time.disabled" = "ausgeschaltet";
+"waiting.time.unknown" = "?";
+"waiting.time.maybe.closed" = "X";
+"waiting.time.unavailable" = "nur im Park verfügbar";
+"waiting.time.updated.needed" = "Manueller Update erforderlich";
+"waiting.time.connection.needed" = "Internet-\nverbindung erforderlich";
+"waiting.time.minutes" = "ca. %d Minuten";
+"waiting.time.closed" = "Geschlossen";
+"waiting.time.park.closed" = "Park geschlossen";
+"waiting.time.no" = "Kein Warten";
+"waiting.time.minutes.suffix" = "Minuten";
+"waiting.time.access.error" = "Download von Wartezeiten nicht erfolgreich (%@)";
+
+"tour.action.sheet.button5" = "Tourdaten versenden";
+"tour.recommendations.title" = "Tour-Vorschläge";
+"tour.delete.sheet.title" = "Tour wirklich löschen?";
+"tour.items.delete.sheet.title" = "Toureinträge wirklich löschen?";
+"tour.add.attraction.sheet.title" = "Attraktion nach Kategorie hinzufügen";
+"tour.add.train.destination.title" = "Zielbahnhof";
+"tour.item.completed" = "erledigt?";
+"tour.item.closed" = "Attraktion geschlossen";
+"tour.item.complete.submit.wait.time" = "Ja & Wartezeit einreichen";
+"tour.item.train.current.station" = "Jetzige Station";
+"tour.item.train.completed" = "Zielbahnhof erreicht?";
+"tour.item.train.selected" = "Gewählter Zielbahnhof";
+"tour.item.train.no.ride" = "Keine Fahrt";
+"tour.completed.title" = "Tour beendet";
+"tour.completed.text" = "Sie haben die Tour beendet.";
+"tour.complete.title" = "Tour beendet?";
+"tour.complete.text" = "Parkausgang erreicht. Wollen Sie die Tour beenden?";
+"tour.close" = "Tour schließen";
+"tour.close.and.send" = "Tour schließen und verschicken";
+"tour.track.close.title" = "Aktuellen Track schließen";
+"tour.track.close.text" = "Der aktuelle Track wird geschlossen. Fortfahren?";
+
+"tour.optimize.title" = "Tour optimieren?";
+"tour.optimize.text" = "Tour hat sich geändert. Soll die Tour optimiert werden?";
+//"tour.max.title" = "Tourvorgabe überschritten";
+//"tour.max.distance" = "Durch diese Aktion wird die maximale erlaubte Tourlänge überschritten";
+//"tour.max.visit.time" = "Durch diese Aktion wird die maximale erlaubte Tourdauer überschritten";
+//"tour.optimized.fit.settings.title" = "Optimierung nach Vorgabe";
+//"tour.optimized.fit.settings" = "Tour wurde optimiert, um die Tourvorgaben einzuhalten";
+"tour.suggestion.add.all.not.fit.profile" = "Nicht alle Einträge des Tourvorschlags passen zum Profil. Es werden nur zum Profil passende Einträge hinzugefügt.";
+
+"tour.email.subject" = "%@ %@ Tour";
+"tour.email.body.track" = "Track:";
+"tour.email.body.title" = "Besuchte Attraktionen:";
+"tour.email.body.to" = "bis";
+"tour.email.body.rating" = "Bewertung:";
+"tour.email.body.attraction.not.completed" = "Attraktion nicht erledigt";
+"tour.email.body.waiting" = "Wartezeit:";
+"tour.email.body.comments" = "Kommentare:";
+"tour.description.title" = "Route von %@ nach %@";
+"tour.description.entry" = "Eingang";
+"tour.description.exit" = "Ausgang";
+"tour.description.entry.of" = "Eingang von %@";
+"tour.description.fastpass.of" = "'%@' Eingang von %@";
+"tour.description.exit.of" = "Ausgang von %@";
+"tour.description.start" = "Von %@ im Themenbereich %@ starten";
+"tour.description.start.theme.area" = "Im Themenbereich %@ starten";
+"tour.description.start.short" = "Von %@ starten";
+"tour.description.via" = "Nach %d m an %@ vorbei";
+"tour.description.via.imperial" = "Nach %d ft an %@ vorbei";
+"tour.description.via.entry.of" = "Nach %d m Eingang von %@";
+"tour.description.via.entry.of.imperial" = "Nach %d ft Eingang von %@";
+"tour.description.via.exit.of" = "Nach %d m Ausgang von %@";
+"tour.description.via.exit.of.imperial" = "Nach %d ft Ausgang von %@";
+"tour.description.change.theme.area.via" = "In Themenbereich %@ wechseln und nach %d m an %@ vorbei";
+"tour.description.change.theme.area.via.imperial" = "In Themenbereich %@ wechseln und nach %d ft an %@ vorbei";
+"tour.description.change.theme.area" = "In Themenbereich %@ wechseln";
+"tour.description.arrived" = "Nach %d m Eingang von %@ erreicht";
+"tour.description.arrived.imperial" = "Nach %d ft Eingang von %@ erreicht";
+"tour.description.fastpass.arrived" = "Nach %d m Fastpass-Eingang von %@ erreicht";
+"tour.description.fastpass.arrived.imperial" = "Nach %d ft Fastpass-Eingang von %@ erreicht";
+"tour.description.exit.arrived" = "Nach %d m %@ erreicht";
+"tour.description.exit.arrived.imperial" = "Nach %d ft %@ erreicht";
+
+// Track
+"track.name" = "Track-Name";
+"track.name.tour" = "der Tour \"%@\"";
+
+// Pathes
+"pathes.no.park.data" = "Keine Parkdaten vorhanden. Bitte unter Optionen Daten-Update durchführen.";
+"pathes.no.valid.park.data" = "Parkdaten korrupt. Bitte unter Optionen Daten-Update überprüfen.";
+"pathes.tab.0" = "A-Z";
+"pathes.tab.1" = "In der Nähe";
+"pathes.tab.2" = "Kategorien";
+"pathes.more.inpark" = "Mehr InPark! Mehr Spaß!";
+"pathes.more.info" = "Mehr...";
+"pathes.submit.waiting.time" = "Wartezeit einreichen";
+"pathes.location.service" = "Ortungsdienst";
+"pathes.location.service.needed" = "Ortungsdienst wird benötigt";
+"pathes.location.service.disabled" = "Der Ortungsdienst ist ausgeschaltet. Wollen Sie den Ortungsdienst aktivieren?";
+"pathes.location.not.identified" = "Ihre Lokation konnte noch nicht identifiziert werden. Bitte warten Sie oder überprüfen Sie Ihr GPS-Signal.";
+"pathes.location.not.identified.again" = "Ihre Lokation konnte noch nicht identifiziert werden. Bitte warten Sie oder überprüfen Sie Ihr GPS-Signal. Noch einmal versuchen?";
+"pathes.waiting.time.only.inside.park" = "Wartezeiten können nur in der Nähe des Parkes eingereicht werden.";
+"pathes.waiting.time.only.inside.park.again" = "Wartezeiten können nur in der Nähe des Parkes eingereicht werden. Noch einmal versuchen?";
+"pathes.menu.visit.title" = "Wartezeit";
+"pathes.menu.visit.notes" = "Mitmachen lohnt sich! Bitte geben Sie bei Ihrem Parkbesuch alle Wartezeiten ein, die Sie sehen. Alle Zeiten in dieser App stammen von Nutzern. Vielen Dank, dass Sie dabei sind!";
+
+// Navigation
+"navigation.button.satellite" = "Satellit";
+"navigation.button.categories" = "Kategorien";
+
+// Categroies selection
+"categories.title" = "Kategorien";
+"categories.title.favorites" = "Favoriten - Kategorien";
+"categories.all.with.waiting.time" = "Alle mit Wartezeit";
+"categories.all.favorites" = "Alle Favoriten";
+
+// Attraction
+"attraction.details.category" = "Kategorie";
+"attraction.details.type" = "Typ";
+"attraction.details.themeArea" = "Themenbereich";
+"attraction.details.opening.end.times" = "Öffnungszeiten";
+"attraction.details.opening.times" = "Anfangszeiten";
+"attraction.details.opening.time" = "Anfangszeit";
+"attraction.details.times.continuously" = "durchgehend";
+"attraction.details.times" = "Zeiten";
+"attraction.details.time" = "Zeit";
+"attraction.details.duration" = "Attraktionsdauer";
+"attraction.details.duration.format" = "%d Min.";
+"attraction.details.train.duration" = "Attraktionsdauer zur nächsten Station";
+"attraction.details.next.station" = "Nächste Station";
+"attraction.details.meals" = "Mahlzeiten";
+"attraction.details.meals.breakfast" = "Frühstück";
+"attraction.details.meals.lunch" = "Mittagessen";
+"attraction.details.meals.dinner" = "Abendessen";
+"attraction.details.meals.snacks" = "Snacks";
+"attraction.details.dining.reservations" = "Reservierungen";
+"attraction.details.dining.reservations.recommended" = "möglich";
+"attraction.details.dining.type" = "Service";
+"attraction.details.dining.type.table" = "Bedienung";
+"attraction.details.dining.type.counter" = "Theke";
+"attraction.details.dining.type.buffet" = "Buffet";
+"attraction.details.dining.type.booth" = "Bude";
+"attraction.details.dining.type.character" = "Auftritte von Themenfiguren";
+"attraction.details.fastpass" = "möglich - nach Verfügbarkeit";
+"attraction.details.fastpass.no" = "hier kein %@";
+"attraction.details.fastpass.available" = "verfügbar";
+"attraction.details.fastpass.limited_availability" = "begrenzt verfügbar";
+"attraction.details.fastpass.unavailable" = "nicht verfügbar";
+"attraction.details.rating.weight" = "Eigene Beurteilung:";
+"attraction.details.thrill.factor" = "Thrill-Faktor:";
+"attraction.details.family.factor" = "Familien-Faktor:";
+"attraction.details.water.factor" = "Wasser-Faktor:";
+"attraction.details.age" = "Altersbeschränkung:";
+"attraction.details.height" = "Größenbeschränkung:";
+"attraction.details.in.tour" = "in Tour";
+"attraction.details.add.to.tour" = "Zur Tour hinzufügen";
+"attraction.details.directly.go.there" = "Jetzt dorthin";
+"attraction.details.directly.go.there.details" = "bei aktiver Tour wir dieses Ziel hinzugefügt und als nächstes angesteuert";
+"attraction.details.show.on.map" = "Diese Attraktion auf der Karte anzeigen";
+"attraction.details.download" = "%@ neues Bild online verfügbar";
+"attraction.details.downloads" = "%@ neue Bilder online verfügbar";
+"attraction.details.own.photo" = "Eigenes Bild hinzufügen";
+"attraction.details.wait.time" = "Wartezeit";
+"attraction.details.remove.from.favorite" = "Von Favoriten entfernen";
+"attraction.details.add.to.favorite" = "Zu Favoriten hinzufügen";
+"attraction.details.rating" = "Bewertung";
+"attraction.details.take.picture" = "Fotografieren";
+"attraction.details.closed" = "geschlossen";
+"attraction.details.view.picture" = "Bild";
+"attraction.details.delete.own.photo.title" = "Eigenes Bild";
+"attraction.details.delete.own.photo" = "Bild löschen?";
+"attraction.details.own.photo" = "Eigenes Bild hinzufügen";
+"attraction.details.update.images.title" = "Keine InPark Vollversion";
+"attraction.details.update.images" = "Bitte installieren Sie die InPark Vollversion, um Zugriff auf freie Downloads aller verfügbaren Parks und HD Versionen zu haben";
+"attraction.route" = "Route";
+"attraction.times.separator" = "-";
+"attraction.today.closed" = "heute geschlossen";
+"attraction.park.hours" = "Öffnung";
+"attraction.extra.hours" = "Extra Hour";
+"attraction.info.money" = "Extrakosten - nicht im Eintrittspreis enthalten";
+"attraction.info.handicapped" = "Behinderten- bzw. Rollstuhlgerecht";
+"attraction.info.roof" = "Indoor-Attraktion";
+"attraction.info.dining.roof" = "Indoor-Gastronomie";
+"attraction.info.snow" = "Winteröffnung";
+"attraction.info.showtimes.remark" = "Änderungen vorbehalten. Keine Gewähr für die Richtigkeit der Angaben. Mehr Informationen auf der offiziellen Homepage des Parks sowie an den Kassen.";
+"attraction.info.dining.remark" = "Änderungen vorbehalten. Keine Gewähr für die Richtigkeit der Angaben. Mehr Informationen über Öffnung und Speiseangebot auf der offiziellen Homepage des Parks.";
+"attraction.details.info" = "Info";
+"attraction.details.further.info" = "weitere Infos";
+"attraction.details.actions" = "Aktionen";
+
+// Wait times overview
+"wait.times.overview.recent" = "Letzte Wartezeiten (Stand %@):";
+"wait.times.overview.local.time" = "(%@ Ortszeit)";
+"wait.times.overview.current" = "Min. aktuelle Wartezeit";
+"wait.times.overview.approx" = "Min. geschätzte Wartezeit";
+"wait.times.overview.maybe.closed" = "vermutlich geschlossen";
+"wait.times.overview.current.unknown" = "unbekannte Wartezeit";
+"wait.times.overview.confirm" = "Letzte Wartezeit bestätigen";
+"wait.times.overview.confirm.closed" = "Als \"Geschlossen\" bestätigen";
+"wait.times.overview.confirm.send" = "Wartezeit von %d Minuten absenden?";
+"wait.times.overview.confirm.send.wrong" = "Wartezeit von %d Minuten absenden? Diese Wartezeit scheint falsch zu sein und könnte vom Server abgelehnt werden.";
+"wait.times.overview.confirm.send.comment" = "Wartezeit von %d Minuten und Kommentar absenden?";
+"wait.times.overview.confirm.closed.send" = "Als \"Geschlossen\" melden?";
+"wait.times.overview.confirm.closed.send.comment" = "Als \"Geschlossen\" melden und Kommentar absenden?";
+"wait.times.overview.submit" = "Wartezeit / Kommentar eingeben";
+"wait.times.overview.submit.error" = "Übertragung der Wartezeit nicht erfolgreich. Noch einmal versuchen?";
+"wait.times.overview.user.name" = "Name (freiwillig)";
+"wait.times.overview.comment" = "Kommentar (optional)";
+"wait.times.overview.time.by" = "von %@";
+"wait.times.overview.unknown" = "Unbekannt";
+"wait.times.overview.no.current" = "keine aktuellen Zeiten";
+"wait.times.overview.rules" = "InPark Regeln";
+"wait.times.overview.rules.title" = "InPark Regeln für Kommentare";
+"wait.times.overview.rules.details" = "1. Keine pornografischen, rassistischen, sexistischen, gewalttätigen und religiösen Wörter, Formulierungen und Zeichen.\n2. Keine Beleidigungen.\n3. Niemand darf sich als eine andere Person ausgeben.\n4. Keine Urheberrechts-Verletzung.";
+"wait.times.overview.rules.accept" = "Für Kommentare gelten die \"InPark Regeln für Kommentare\". Ich habe die Regeln gelesen und akzeptiert.";
+
+// Tutorial
+"tutorial.wait.times.details.attraction" = "Hier drücken:\nDetails Attraktion";
+"tutorial.wait.times.details.wait.time" = "Hier drücken:\nDetails Wartezeit";
+"tutorial.wait.times.details.calendar" = "Hier drücken:\nKalender";
+"tutorial.wait.times.details.favorites" = "Hier drücken:\nFavoriten hinzufügen/entfernen";
+
+// Attraction List
+"attraction.list.add.all" = "Alle hinzufügen";
+"attraction.list.no.recommendations.title" = "Keine Empfehlungen";
+"attraction.list.no.recommendations" = "Für Ihr Profileinstellungen gibt es in diesem Park keine Empfehlungen.";
+
+// Cell in list of attractions
+"attraction.list.cell.fit" = "%d%% Profil-Deckung";
+
+// Parse profile data inside text of "Altersbegrenzung", "Größe"
+"profile.parse.no.restrictions" = "ohne Beschränkung";
+"profile.parse.adult.accompany" = "nur in Begleitung eines Erwachsenen";
+"profile.parse.child.accompany" = "nur in Begleitung eines Kindes";
+"profile.parse.until" = "unter ";
+"profile.parse.from" = "ab ";
+"profile.parse.below" = "bis ";
+"profile.parse.between" = " bis ";
+"profile.age.until.and.adult.accompany" = "unter %d Jahren nur in Begleitung eines Erwachsenen";
+"profile.age.above.and.child.accompany" = "ab %d Jahren nur in Begleitung eines Kindes";
+"profile.age.from" = "ab %d Jahren";
+"profile.age.below" = "bis %d Jahre";
+"profile.age.between" = "%d bis %d Jahre";
+"profile.height.from" = "ab %d cm";
+"profile.height.imperial.from" = "ab %@ (%d cm)";
+"profile.height.below" = "bis %d cm";
+"profile.height.imperial.below" = "bis %@ (%d cm)";
+"profile.height.between" = "%d cm bis %d cm";
+"profile.height.imperial.between" = "%@ bis %@ (%d cm bis %d cm)";
+"profile.height.until.and.adult.accompany" = "unter %d cm nur in Begleitung eines Erwachsenen";
+"profile.height.above.and.child.accompany" = "ab %d cm nur in Begleitung eines Kindes";
+"profile.height.imperial.until.and.adult.accompany" = "unter %@ (%d cm) nur in Begleitung eines Erwachsenen";
+"profile.height.imperial.above.and.child.accompany" = "ab %@ (%d cm) nur in Begleitung eines Kindes";
+
+// Rating
+"rating.comments.history" = "Historie der Kommentare:";
+"rating.save" = "Wollen Sie Ihr Kommentar speichern?";
+"rating.rating" = "Bewertung:";
+"rating.comment" = "Kommentar:";
+
+// Facebook Publications
+"facebook.publish.title" = "auf Facebook";
+"facebook.login.failed" = "Facebook-Login fehlgeschlagen";
+"facebook.no.attraction.visited" = "Es wurden keine Attraktionen besucht, die auf Facebook veröffentlicht werden können.";
+"facebook.albums.name.title" = "Name";
+"facebook.albums.name" = "Besuch im %@ am %@.";
+"facebook.albums.location.title" = "Lokation";
+"facebook.albums.description.title" = "Beschreibung";
+"facebook.albums.description" = "Ich war von %@ bis %@ im Freizeitpark „%PARKNAME%“ und habe %d Attraktionen gemacht. Dabei habe ich %@ zurückgelegt.";
+"facebook.attraction.information" = "Von %@ bis %@ war ich in \'%@\'";
+"facebook.attraction.information.train.entry" = "Einstieg in '%@' um %@";
+"facebook.attraction.information.train.exit" = "Ausstieg von '%@' um %@";
+
+// Parking
+"parking.mark" = "Merken";
+"parking.notes" = "Eigene Notizen";
+"parking.last.notes" = "Notizen vom letzen Mal: %@";
+"parking.accuracy" = "Genauigkeit";
+"parking.accuracy.not.inside.park" = " (nicht im Park)";
+"parking.accuracy.distance.to.park" = " (ca. %@ vom Park entfernt)";
+"parking.accuracy.location.title" = "Location Service noch zu ungenau";
+"parking.accuracy.location.text" = "Bitte warten oder eine Stelle finden, wo die geforderte GPS Signalgenauigkeit erreicht wird";
+"parking.accuracy.continue.location.title" = "Location Service fortführen?";
+"parking.accuracy.continue.location.text" = "Soll der Location Service für die Aufzeichnung des Weges zum Parkeingang weiter laufen?";
+
+// News
+"news.no" = "Keine aktuellen News vorhanden oder keine Serververbindung.";
+"news.title" = "News";
+
+// Search
+"search.title" = "Suchen";
+"search.settings.title" = "Einstellungen";
+"search.settings.park.selection" = "Parkauswahl";
+"search.settings.attribute.selection" = "Attributauswahl";
+"search.attribute.attraction.name" = "Attraktionsname";
+"search.attribute.category" = "Kategorie";
+"search.attribute.type" = "Typ";
+"search.attribute.description" = "Beschreibung";
+"search.settings.accuracy" = "Genauigkeit";
+
+// Update
+"update.app.title" = "Neue Version verfügbar";
+"update.app.text" = "Eine neue Version von %@ ist verfügbar. Bitte aktualisieren Sie jetzt auf die Version %@.";
+"update.app.no" = "Nein, danke";
+"update.app.update" = "Jetzt aktualisieren";
+"update.app.remind" = "Später erinnern";
+"update.title" = "Verfügbar";
+"update.update" = "Update";
+"update.photos" = "Fotos";
+"update.no.parks.title" = "Keine Daten vorhanden.";
+"update.no.parks" = "Bitte laden Sie Parkdaten herunter. Diese Daten sind kostenlos, werden unabhängig von der App aktuell gehalten und ermöglichen Offline-Verwendbarkeit.";
+"update.park.data.missing" = "Parkdaten werden vermisst!";
+"update.park.data" = "Bitte aktualisieren Sie die Parkdaten.";
+"update.core.data" = "Basisdaten";
+"update.button.select.all" = "Alle auswählen";
+"update.button.delete.selection" = "Auswahl aufheben";
+"update.alert.title" = "Neue Parkdaten";
+"update.alert.error" = "Keine Verbindung zum Server möglich";
+"update.alert.text" = "Alle Parkdaten sind aktuell";
+"update.alert.updated" = "Alle Parkdaten aktualisiert";
+"update.download.info" = "Daten von %@ werden heruntergeladen";
+"update.downloaded" = "erfolgreich importiert";
+"update.download.imported" = "%@ erfolgreich importiert";
+"update.download.imported.error" = "Daten konnten nicht aktualisiert werden";
+"update.download.completion.error" = "Download nicht vollständig";
+"update.validate.download.info" = "Validiere Daten von %@";
+"update.unzip.info" = "Daten entpacken...";
+"update.download.error" = "Fehler: %@";
+"update.download.error.hash" = "Fehlerhafter Hash-Code für die Daten von %@";
+"update.park.data.import" = "Nicht alle Tourdaten, Bewertungen oder Favoriten konnten übertragen werden. Mindestens eine Attraktion existiert nicht mehr.";
+"update.upgrade.hint" = "<html><head><style type=\"text/css\">A:link {color:%@}\nA:visited {color:%@}\nA:active {color:%@}</style></head><body style=\"font-family:helvetica;font-size:12px;background-color:transparent;color:%@\">Bitte installieren Sie die <a href=\"http://itunes.apple.com/de/app/inpark/id428834617?mt=8&1s=1\">InPark Vollversion</a>, um Zugriff auf freie Downloads aller verfügbaren Parks und HD-Versionen zu haben.</body></html>";
+
+// Agreement
+"download.agreement" = "Sie wollen Parkdaten herunterladen, in Form von Bildern, Texten und GPS-Daten. InPark übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität dieser Informationen.\nDie Daten sind von den Parkbetreibern möglicherweise nicht autorisiert, bestätigt oder gebilligt. Die Nutzung solcher unbestätigten Daten geschieht auf eigenes Risiko des Nutzers.";
